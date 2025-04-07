@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Hello! I'm Clinton Okoth, a web developer with a passion for creating clean and efficient websites. I specialize in front-end development, but I also have experience with back-end technologies.</p>
+            
+            <figure>
+                <img src="images/clint pic.jpeg" alt="">
+                <figcaption>That's me!</figcaption>
+            </figure>
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+            
+            <h2>Project 1: My Portfolio</h2>
+            <p>This is my portfolio website. It was built using HTML, CSS,</p>
+            
+            <h2>Project 2: Task Manager</h2>
+            <p>A simple task management app built with React.js and Firebase.</p>
+
+            <h3>Project Details</h3>
+            <table>
+                <tr>
+                    <th>Project</th>
+                    <th>Technologies</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Portfolio</td>
+                    <td>HTML, CSS,</td>
+                    <td>Completed</td>
+                </tr>
+                <tr>
+                    <td>Task Manager</td>
+                    <td>React, Firebase</td>
+                    <td>In Progress</td>
+                </tr>
+            </table>
+            
+            <h3>Technologies I Use</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+
+        <section id="media">
+            <h1>Media</h1>
+
+            <h2>Introduction Video</h2>
+            <video width="320" height="240" controls>
+                <source src="intro-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <h2>Background Music</h2>
+            <audio controls>
+                <source src="background-music.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="contact">
+            <h1>Contact Me</h1>
+            <form action="/submit_form" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Clinton Okoth. &copy; 2025</p>
+    </footer>
+</body>
+</html>
